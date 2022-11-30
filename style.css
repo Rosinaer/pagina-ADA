@@ -1,0 +1,537 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.encabezado {
+    background-color: whitesmoke;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    padding-left: 90px;
+    padding-right: 90px;
+    z-index: 1;
+}
+
+.encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 70px;
+
+}
+
+.nav-link {
+    display: inline-block;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo {
+    display: flex;
+
+    text-decoration: none;
+    color: rgb(233, 71, 184);
+    font-size: 30px;
+}
+
+.nav a:hover {
+    color: rgb(233, 71, 184);
+}
+
+/* Primer estructura */
+
+#adaitw {
+    background: linear-gradient(to right, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(imagenes/ima1.jpg);
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#adaitw h1 {
+    text-align: center;
+    color: white;
+    font-size: 61px;
+    top: 25.5%;
+}
+
+.boton_aplica {
+    position: absolute;
+    font-size: 22px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(233, 71, 184);
+    padding: 0.3em 1em;
+    border-radius: 5px;
+    border: 3px solid rgb(163, 50, 128);
+    top: 68%;
+
+}
+
+.boton_aplica:hover {
+    color: rgb(163, 50, 128);
+}
+
+/* Segunda estructura */
+
+#quienes-somos {
+    padding-top: 190px;
+    margin-right: 120px;
+    display: flex;
+}
+
+img {
+    float: left;
+    width: 420px;
+    height: 380px;
+    margin: 20px 40px 120px 150px;
+    padding-bottom: 90px;
+
+}
+
+.somos {
+    font-size: 38px;
+    text-align: left;
+    text-align: left;
+    margin-top: 120px;
+    padding-bottom: 30px;
+}
+
+span {
+    color: rgb(233, 71, 184);
+}
+
+.texto {
+    text-align: left;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-right: 15;
+}
+
+/* Tercer estructura */
+
+#cont_nuestros {
+    background-color: rgb(30, 30, 30);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 720px;
+}
+
+#cont_nuestros h2 {
+
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.tarjetas_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tarjeta1 {
+    background-color: rgb(50, 50, 50);
+    width: 20%;
+    height: 380px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 10px;
+}
+
+.tarjeta2 {
+    background-color: rgb(50, 50, 50);
+    width: 20%;
+    height: 380px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 10px;
+}
+
+.tarjeta3 {
+    background-color: rgb(50, 50, 50);
+    width: 20%;
+    height: 380px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 10px;
+}
+
+.img_info {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.img_info img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    margin: 0px;
+    padding-bottom: 5px;
+    height: 120px;
+
+}
+
+h3 {
+    position: absolute;
+    font-size: 24px;
+    color: white;
+    flex-wrap: wrap;
+    margin-top: 1.8em;
+    left: 2.4em;
+    right: 2.4em;
+}
+
+.tarjeta_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.parrafo_info {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    margin: 1.5em;
+}
+
+.boton_info {
+    font-size: 22px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(233, 71, 184);
+    padding: 0.1em 0.5em;
+    border-radius: 5px;
+    border: 3px solid rgb(163, 50, 128);
+}
+
+.boton_info:hover {
+    color: rgb(163, 50, 128);
+}
+
+/* Cuarta estructura */
+
+#caracteristicas {
+    margin: 160px;
+    padding-left: 20px;
+    list-style-image: url(imagenes/checkmark-24.jpg);
+}
+
+.img_caracteristicas {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    margin-right: 160px;
+    padding-bottom: 80px;
+    padding-top: 100px;
+}
+
+ul {
+    position: absolute;
+    display: flex;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: 150px;
+    padding-top: 60px;
+    line-height: 2;
+    list-style-type: none;
+}
+
+/* Quinta estructura */
+
+#aplica {
+    background-color: rgb(225, 87, 175);
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#aplica h2 {
+    font-size: 60px;
+    color: white;
+}
+
+.boton {
+    font-size: 22px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(233, 71, 184);
+    padding: 0.2em 0.6em;
+    border-radius: 5px;
+    border: 3px solid rgb(163, 50, 128);
+    position: absolute;
+    top: 60%;
+    margin: 20px;
+}
+
+.boton:hover {
+    color: rgb(163, 50, 128);
+}
+
+footer {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    text-align: center;
+    min-height: 130px;
+}
+
+footer h4 {
+    color: rgb(131, 131, 131);
+    padding: 0.5em;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+footer h5 {
+    color: rgb(131, 131, 131);
+    padding: 0.6em;
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+
+@media (max-width: 1200px) {
+    #quienes-somos {
+        margin-right: 50px;
+    }
+
+    .somos {
+        margin-top: 60px;
+    }
+
+
+    .tarjetas_flex {
+        margin: opx;
+    }
+
+    h3 {
+        font-size: 20px;
+        margin: 10px, 10px;
+    }
+
+    #caracteristicas {
+        margin: 50px;
+    }
+
+    .img_caracteristicas {
+        margin-right: 30px;
+    }
+
+}
+
+@media (max-width: 900px) {
+    #adaitw {
+        width: 100%;
+    }
+
+    #adaitw h1 {
+        font-size: 40px;
+    }
+
+    #quienes-somos {
+        margin: 50px;
+        padding: 50px;
+    }
+
+    #quienes-somos img {
+        display: none;
+    }
+
+    .somos {
+        text-align: center;
+        margin: 40px;
+    }
+
+    .texto {
+        margin-bottom: 100px;
+    }
+
+    #cont_nuestros h2 {
+        margin-top: 40px;
+    }
+
+    .img_info img {
+        display: none;
+    }
+
+    h3 {
+        font-size: 30px;
+        padding-top: 25px;
+    }
+
+    .tarjetas_flex {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        width: 500px;
+        align-items: center;
+        margin: 0px;
+    }
+
+    .tarjeta1 {
+        width: 100%;
+        justify-content: center;
+        height: 300px;
+        position: relative;
+        margin-top: 20px;
+        background-image: url(imagenes/front-end.jpg);
+        background-size: cover;
+    }
+
+    .tarjeta2 {
+        width: 100%;
+        justify-content: center;
+        height: 300px;
+        position: relative;
+        margin-top: 20px;
+        background-image: url(imagenes/full-stack.jpg);
+        background-size: cover;
+    }
+
+    .tarjeta3 {
+        width: 100%;
+        justify-content: center;
+        height: 300px;
+        position: relative;
+        margin-top: 20px;
+        background-image: url(imagenes/python.jpg);
+        background-size: cover;
+    }
+
+    .parrafo_info {
+        display: none;
+    }
+
+    .boton_info {
+        position: absolute;
+        bottom: 50px;
+        left: 200px;
+    }
+
+    #caracteristicas {
+        padding: 20px;
+        margin-left: 180px;
+    }
+
+    .img_caracteristicas img {
+        display: none;
+    }
+
+    ul {
+        position: relative;
+        flex-wrap: nowrap;
+        bottom: 50px;
+    }
+
+    #aplica {
+        height: 450px;
+    }
+
+    #aplica h2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width:800px) {
+    .encabezado {
+        flex-direction: column;
+    }
+
+    nav {
+        width: 140px;
+        text-align: center;
+    }
+
+    .nav-link {
+        font-size: 14px;
+        padding: 0px;
+    }
+}
+
+@media (max-width:600px) {
+    .logo {
+        font-size: 25px;
+        margin: 10px;
+    }
+
+    nav {
+        font-size: 12px;
+    }
+
+    #adaitw {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #adaitw h1 {
+        font-size: 30px
+    }
+
+    #cont_nuestros {
+        flex-direction: column;
+    }
+
+    .tarjetas_flex {
+        margin: 20px;
+        padding: 0px;
+        width: 300px;
+    }
+
+    .tarjeta {
+        width: 70%;
+        height: 280ps;
+    }
+
+    .boton_info {
+        left: 100px;
+    }
+
+    #caracteristicas {
+        margin-left: 60px;
+        padding-bottom: 20px;
+        padding-left: 0px;
+    }
+
+    ul {
+        font-size: 16px;
+    }
+
+    #aplica h2 {
+        text-align: center;
+        font-size: 36px;
+    }
+}
